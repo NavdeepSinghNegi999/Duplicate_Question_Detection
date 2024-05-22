@@ -13,7 +13,6 @@ from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 
 cv = pickle.load(open('./model/cv.pkl','rb'))
-# cv = keras.models.load_model('model/cv.pkl')
 
 def preprocess(q):
 
