@@ -6,4 +6,5 @@ bs4
 scikit-learn
 keras
 tensorflow-cpu
-pickle5
+pickle
+
