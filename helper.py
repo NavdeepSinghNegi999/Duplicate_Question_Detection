@@ -227,8 +227,8 @@ def PreprocessQuery(q1, q2):
     q1 = preprocess(q1)
     q2 = preprocess(q2)
 
-    # q1 = lemmatize_text(q1)
-    # q2 = lemmatize_text(q2)
+    q1 = lemmatize_text(q1)
+    q2 = lemmatize_text(q2)
 
     # fetch basic features
     input_query.append(len(q1))
