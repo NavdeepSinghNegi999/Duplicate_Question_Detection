@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import pickle
 import numpy as np
 import nltk
+import keras
 
 nltk_data_dir = './nltk_data'
 nltk.data.path.append(nltk_data_dir)
@@ -12,8 +13,8 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 
-cv = pickle.load(open('./model/cv.pkl','rb'))
-
+# cv = pickle.load(open('./model/cv.pkl','rb'))
+cv = keras.models.load_model('model/cv.pkl')
 
 def preprocess(q):
 
