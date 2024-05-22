@@ -1,10 +1,10 @@
 import re
 from bs4 import BeautifulSoup
-# import pickle
+import pickle
 import numpy as np
 import nltk
 import keras
-import pickle5 as pickle
+# import pickle5 as pickle
 
 nltk_data_dir = './nltk_data'
 nltk.data.path.append(nltk_data_dir)
