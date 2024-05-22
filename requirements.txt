@@ -3,8 +3,5 @@ streamlit
 nltk
 streamlit_webrtc
 bs4
-scikit-learn
-keras
-tensorflow-cpu
-pickle
+sklearn
 
