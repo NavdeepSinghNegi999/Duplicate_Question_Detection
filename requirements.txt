@@ -3,5 +3,5 @@ streamlit
 nltk
 streamlit_webrtc
 bs4
-sklearn
+scikit-learn
 
