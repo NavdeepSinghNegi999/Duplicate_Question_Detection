@@ -13,7 +13,7 @@ q2 = st.text_input('Enter question 2')
 if st.button('Find'):
     query = helper.PreprocessQuery(q1,q2)
     result = model.predict(query)[0]
-
+    print(result)
     if result:
         st.header('Duplicate')
     else:
