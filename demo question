@@ -1,0 +1,17 @@
+diplicate : 
+
+          q1 - "What is the best time table for a student of maths and science of class 11th?"
+          q2 - "What is the best time table for student of maths and science of class 11th?"
+
+          q1 - "How difficult is starting a business in india?"
+          q2 - "How difficult is it to start a new business in India?"
+
+
+
+Non duplicate:
+          q1 - "Where can I buy a TI Nspire CX CAS Power cord/ USB Cable?"
+          q2 - "How many watts does a USB Type-C cable support?"
+
+
+          q1 - "What is the difference between a public limited company and a private limited company?"
+          q2 - "What are the differences between private company and private limited companies?"
