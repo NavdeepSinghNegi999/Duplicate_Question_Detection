@@ -1,6 +1,6 @@
 numpy==1.26.4
 streamlit
-nltk
+nltk==3.8.1
 streamlit_webrtc
 bs4
 scikit-learn==1.2.2
