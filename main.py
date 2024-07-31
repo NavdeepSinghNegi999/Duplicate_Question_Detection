@@ -1,5 +1,5 @@
 import streamlit as st
-# import helper
+import helper
 import pickle
 
 model = pickle.load(open(r'model/model.pkl','rb'))
@@ -11,9 +11,8 @@ q1 = st.text_input('Enter question 1')
 q2 = st.text_input('Enter question 2')
 
 if st.button('Find'):
-    # query = helper.PreprocessQuery(q1,q2)
-    # result = model.predict(query)[0]
-    result = 1
+    query = helper.PreprocessQuery(q1,q2)
+    result = model.predict(query)[0]
     
     if result:
         st.header('Duplicate')
