@@ -3,8 +3,8 @@ import streamlit as st
 import pickle
 
 # model = pickle.load(open('model/model.pkl','rb'))
-from keras.models import load_model
-mode = load_model('model/model.pkl')
+import keras
+mode = keras.models.load_model('model/model.pkl')
 
 
 st.header('Duplicate Question Pairs')
